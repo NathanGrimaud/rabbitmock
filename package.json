@@ -1,0 +1,18 @@
+{
+  "name": "rabbitmock",
+  "version": "0.5.0",
+  "description": "A mock for rabbitmq callbackapi",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "babel src --out-dir dist --source-maps"
+  },
+  "author": "Alexandre Bertrand <lxndr.bertrand@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-preset-es2015": "^6.22.0",
+    "webpack": "^3.4.1",
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.25.0",
+    "babel-loader": "^7.1.1"
+  }
+}
